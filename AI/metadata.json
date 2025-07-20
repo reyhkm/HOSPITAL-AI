@@ -1,0 +1,5 @@
+{
+  "name": "AI Chatbot Rumah Sakit",
+  "description": "Sebuah chatbot AI yang ditenagai oleh Gemini untuk menjawab pertanyaan umum seputar layanan rumah sakit, membantu pasien dan pengunjung mendapatkan informasi dengan cepat.",
+  "requestFramePermissions": []
+}

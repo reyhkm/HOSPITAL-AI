@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MentaCare | Solusi Kesehatan Anda</title>
+    <link rel="shortcut icon" href="images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+
+    <section id="hero">
+        <nav class="navigation">
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="MentaCare Logo" style="height: 50px;">
+            </a>            <ul class="menu">
+                <li><a href="#our-team">Temukan Dokter</a></li>
+                <li><a href="#our-services">Layanan Kami</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#about-us">Tentang Kami</a></li>
+            </ul>
+            <a class="nav-appointment-btn" href="#appointment-form">Buat Janji</a>
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Kesehatan Anda, Prioritas Kami</h1>
+                <p>Temukan solusi kesehatan terbaik dengan mudah dan cepat. Layanan profesional, dokter ahli, dan
+                    fasilitas modern siap melayani Anda.</p>
+
+                <div class="hero-text-btns">
+                    <a href="#appointment-search"><i class="fa-solid fa-magnifying-glass"></i> Cari Dokter</a>
+                    <a href="#appointment-form"><i class="fa-solid fa-check"></i> Pesan Janji Temu</a>
+                </div>
+            </div>
+            <div class="hero-img">
+                <img alt="Dokter sedang merawat pasien" src="images/hero.png">
+            </div>
+        </div>
+    </section>
+
+    <section class="what-we-provide">
+
+        <div class="w-info-box w-i-box1">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-user-md"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Dokter Berpengalaman</strong>
+                <p>Tim medis profesional dan ahli di bidangnya.</p>
+            </div>
+        </div>
+        <div class="w-info-box w-i-box2">
+            <div class="w-info-icon">
+                <i class="fa-regular fa-calendar-check"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Janji Online Mudah</strong>
+                <p>Atur jadwal konsultasi Anda kapan saja, di mana saja.</p>
+            </div>
+        </div>
+        <div class="w-info-box w-i-box3">
+            <div class="w-info-icon">
+                <i class="fa-solid fa-hospital"></i>
+            </div>
+            <div class="w-info-text">
+                <strong>Fasilitas Modern</strong>
+                <p>Dilengkapi peralatan canggih untuk diagnosa akurat.</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="our_story">
+
+        <div class="our-story-img">
+            <img src="images/layanan.jpg" alt="Ilustrasi layanan kesehatan" />
+            <a class="story-play-btn" href="#">
+                <i class="fa-solid fa-play"></i>
+                Tonton Video Kami
+            </a>
+        </div>
+        <div class="our-stroy-text" id="about-us">
+            <h2>Tentang Kami untuk Kesehatan Anda.</h2>
+            <p>MentaCare berkomitmen menyediakan layanan kesehatan terbaik dengan pendekatan yang berpusat pada pasien.
+                Kami percaya setiap individu berhak mendapatkan perawatan yang holistik dan personal.</p>
+            <p>Dengan tim dokter spesialis dan staf medis yang berpengalaman, serta didukung oleh teknologi mutakhir,
+                kami siap mendampingi Anda menuju hidup yang lebih sehat. <a href="#">Baca Selengkapnya</a></p>
+            <div class="story-numbers-container">
+                <div class="story-numbers-box s-n-box1">
+                    <strong>1000+</strong>
+                    <span>Pasien Senang</span>
+                </div>
+                <div class="story-numbers-box s-n-box2">
+                    <strong>215+</strong>
+                    <span>Dokter Ahli</span>
+                </div>
+                <div class="story-numbers-box s-n-box3">
+                    <strong>315+</strong>
+                    <span>Ruang Perawatan</span>
+                </div>
+                <div class="story-numbers-box s-n-box4">
+                    <strong>106+</strong>
+                    <span>Penghargaan</span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <section id="our-services">
+
+        <div class="services-heading">
+            <div class="services-heading-text">
+                <strong>Layanan Kami</strong>
+                <h2>Layanan Kesehatan Komprehensif Kami</h2>
+            </div>
+            <div class="service-slide-btns">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+
+        <div class="services-box-container">
+            <div id="service-modal" class="modal-overlay" style="display: none;">
+                <div class="modal-content">
+                    <span class="close-button">&times;</span>
+                    <h3 id="modal-title"></h3>
+                    <p id="modal-description"></p>
+                </div>
+            </div>
+            <div class="swiper mySwiperservices">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="service-box s-box1">
+                            <i class="fa-solid fa-tooth"></i>
+                            <strong>Perawatan Gigi</strong>
+                            <p>Layanan gigi lengkap mulai dari pembersihan, penambalan, hingga perawatan ortodontik.</p>
+                            <a href="#">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box2">
+                            <i class="fa-solid fa-eye"></i>
+                            <strong>Kesehatan Mata</strong>
+                            <p>Pemeriksaan mata rutin, koreksi penglihatan, dan penanganan masalah mata lainnya.</p>
+                            <a href="#">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box3">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                            <strong>Kardiologi</strong>
+                            <p>Deteksi dini, diagnosis, dan penanganan penyakit jantung dengan teknologi modern.</p>
+                            <a href="#">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="service-box s-box4">
+                            <i class="fa-solid fa-stethoscope"></i>
+                            <strong>Pemeriksaan Umum</strong>
+                            <p>Konsultasi umum, vaksinasi, dan pemeriksaan kesehatan berkala untuk keluarga Anda.</p>
+                            <a href="#">Pelajari Lebih Lanjut</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <span class="service-btn">Butuh Bantuan Lebih Lanjut? Hubungi Tim Dukungan Kami! <a href="#why-choose-us">Mulai
+                Sekarang</a></span>
+
+    </section>
+    <section id="why-choose-us">
+
+        <div class="why-choose-us-left">
+            <h3>Mengapa Memilih MentaCare?</h3>
+            <div class="why-choose-box-container">
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-stethoscope"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Perawatan Komprehensif</strong>
+                        <p>Penanganan medis yang menyeluruh untuk setiap kondisi.</p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-hospital-user"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Pelayanan Ramah Pasien</strong>
+                        <p>Kami menempatkan kenyamanan dan kebutuhan pasien sebagai prioritas.</p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-handshake"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Terpercaya dan Aman</strong>
+                        <p>Standar keamanan dan privasi data pasien yang tinggi.</p>
+                    </div>
+                </div>
+                <div class="why-choose-box">
+                    <i class="fa-solid fa-microscope"></i>
+                    <div class="why-choose-box-text">
+                        <strong>Laboratorium Lengkap</strong>
+                        <p>Hasil tes akurat dan cepat untuk diagnosis yang tepat.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="why-choose-us-btn" href="#appointment-form">Buat Janji</a>
+        </div>
+        <div class="why-choose-us-right">
+            <h3>Darurat?<br />
+                Hubungi Kami Segera
+            </h3>
+            <p>Jangan ragu untuk menghubungi kami dalam situasi darurat medis. Tim kami siap memberikan penanganan cepat
+                dan profesional.</p>
+            <div class="w-right-contact-container">
+                <div class="w-right-contact-box">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="w-right-contact-box-text">
+                        <span>Hubungi Kami Sekarang</span>
+                        <strong>+62 21 1234 5678</strong>
+                    </div>
+                </div>
+                <div class="w-right-contact-box">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="w-right-contact-box-text">
+                        <span>Email Kami</span>
+                        <strong>info@MentaCare.com</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-team">
+        <div class="our-team-heading">
+            <h3>Kenali Tim Spesialis Kami</h3>
+            <p>Para dokter dan ahli medis kami berdedikasi untuk memberikan perawatan terbaik dengan keahlian dan
+                kepedulian.</p>
+        </div>
+
+        <div class="team-box-container">
+            <div class="swiper mySwiperteam">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/3.png" alt="Dr. Ayu Wulandari">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Ayu Wulandari</strong>
+                                <span>Spesialis Kulit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/2.png" alt="Dr. Budi Santoso">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Budi Santoso</strong>
+                                <span>Dokter Gigi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/9.png" alt="Dr. Citra Lestari">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Kirani Permatasri</strong>
+                                <span>Spesialis Gigi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/5.png" alt="Dr. Citra Lestari">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Arjuna Saputra</strong>
+                                <span>Spesialis Penyakit Dalam</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/6.png" alt="Dr. Eka Fitriani">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Eka Fitriani</strong>
+                                <span>Spesialis Gizi Klinik</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/7.png" alt="Dr. Eka Fitriani">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Jaya Kusuma</strong>
+                                <span>Spesialis Mata</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="team-box">
+                            <div class="team-img">
+                                <img src="images/8.png" alt="Dr. Eka Fitriani">
+                            </div>
+                            <div class="team-text">
+                                <strong>Dr. Wahyu Hidayat</strong>
+                                <span>Spesialis Psikiatri</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+                
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+
+        <div class="testimonials-heading">
+            <h3>Apa Kata Pasien Kami?</h3>
+            <p>Simak pengalaman positif dari pasien yang telah mempercayakan kesehatan mereka kepada MentaCare.</p>
+        </div>
+
+
+        <div class="testimonials-content">
+
+            <div class="testimonials-img">
+                <img alt="Pasien yang puas" src="images/feedback pasien.jpg">
+            </div>
+
+            <div class="testimonials-box-container">
+
+                <div class="swiper mySwipertesti">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="testimonials-box">
+                                <div class="t-profile">
+                                    <div class="t-profile-img">
+                                        <img alt="Haryanti" src="images/profil1.jpg">
+                                    </div>
+                                    <div class="t-profile-text">
+                                        <strong>Haryanti</strong>
+                                        <span>Dari Jakarta</span>
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Pelayanan di MentaCare sangat memuaskan. Dokter dan perawatnya ramah serta sangat
+                                    membantu. Saya merasa nyaman dan tertangani dengan baik."</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-box">
+                                <div class="t-profile">
+                                    <div class="t-profile-img">
+                                        <img alt="Edo" src="images/profil2.jpg">
+                                    </div>
+                                    <div class="t-profile-text">
+                                        <strong>Edo</strong>
+                                        <span>Dari Bogor</span>
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Sangat mudah untuk membuat janji online. Prosesnya cepat dan tidak ribet. Saya
+                                    sangat merekomendasikan MentaCare untuk kebutuhan kesehatan Anda."</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="testimonials-box">
+                                <div class="t-profile">
+                                    <div class="t-profile-img">
+                                        <img alt="Suliasti" src="images/profil.jpg">
+                                    </div>
+                                    <div class="t-profile-text">
+                                        <strong>Suliasti</strong>
+                                        <span>Dari Bekasi</span>
+                                        <div class="t-rating">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>"Fasilitasnya bersih dan modern, stafnya juga sangat profesional. Saya merasa sangat
+                                    terbantu dengan diagnosis dan penanganan yang diberikan."</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="appointment-form">
+        <div class="appointment-form-container">
+            <h3>Buat Janji Temu Anda Sekarang</h3>
+            <p>Untuk membuat janji temu atau mendapatkan informasi lebih lanjut, silakan hubungi kami langsung:</p>
+            <div class="contact-info-direct">
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    Email: <a
+                        href="mailto:info@MentaCare.com?subject=Permintaan%20Janji%20Temu&body=Halo,%20saya%20ingin%20membuat%20janji%20temu.%0ANama:%0AEmail:%0ANomor%20Telepon:%0ASpesialisasi:%0APesan:"
+                        target="_blank">info@MentaCare.com</a>
+                </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    Telepon: <a href="tel:+622112345678">+62 21 1234 5678</a>
+                </p>
+                <p style="margin-top: 15px;">Tim kami siap membantu Anda!</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <h3>Dapatkan Informasi Terbaru dari MentaCare</h3>
+        <form class="subscribe-box">
+            <input type="email" placeholder="Masukkan email Anda di sini" required>
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-company-box">
+            <a class="logo" href="index.html">
+                <img src="images/logo.png" alt="MentaCare Logo" style="height: 50px;">
+            </a>                <p>Dedicated to your health and well-being. We provide comprehensive and compassionate medical care.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-link-box">
+                <strong>Tautan Utama</strong>
+                <ul>
+                    <li><a href="#hero">Beranda</a></li>
+                    <li><a href="#our_story">Tentang Kami</a></li>
+                    <li><a href="#why-choose-us">Kontak</a></li>
+                    <li><a href="#our-services">Layanan</a></li>
+                    <li><a href="#our-team">Tim Kami</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-box">
+                <strong>Tautan Cepat</strong>
+                <ul>
+                    <li><a href="#">Produk Kami</a></li>
+                    <li><a href="#">Kebijakan Privasi</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Syarat & Ketentuan</a></li>
+                </ul>
+            </div>
+        <div class="footer-link-box">
+            <strong>Hubungi Kami</strong>
+            <ul>
+                <li><a href="tel:+622112345678"><i class="fa-solid fa-phone-alt"></i> +62 21 1234 5678</a></li>
+                <li><a href="mailto:info@MentaCare.com"><i class="fa-solid fa-envelope"></i> info@MentaCare.com</a></li>
+                <li><a href="#"><i class="fa-solid fa-location-dot"></i> Jl. Kesehatan No. 123, Jakarta</a></li>
+                <li><a href="#"><i class="fa-solid fa-clock"></i> Buka 24jam</a></li>
+            </ul>
+        </div>
+
+
+        </div>
+
+        <div class="footer-bottom">
+            <span class="footer-owner">Dibuat dengan ❤️ oleh Mendy</span>
+            <span class="copyright">&#169; Copyright 2024 - MentaCare. All Rights Reserved.</span>
+        </div>
+    </footer>
+
+    <div id="chatbot-container">
+        <button id="chatbot-toggle-button">
+            <i class="fa-solid fa-comment-dots"></i> Chat
+        </button>
+        <iframe id="chatbot-iframe" src="AI/index.html" frameborder="0"></iframe>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const chatbotToggleButton = document.getElementById('chatbot-toggle-button');
+            const chatbotIframe = document.getElementById('chatbot-iframe');
+
+            // Initially hide the iframe
+            chatbotIframe.style.display = 'none';
+
+            chatbotToggleButton.addEventListener('click', () => {
+                if (chatbotIframe.style.display === 'none') {
+                    chatbotIframe.style.display = 'block';
+                    chatbotToggleButton.innerHTML = '<i class="fa-solid fa-times"></i> Tutup';
+                } else {
+                    chatbotIframe.style.display = 'none';
+                    chatbotToggleButton.innerHTML = '<i class="fa-solid fa-comment-dots"></i> Chat';
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>
