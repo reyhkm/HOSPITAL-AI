@@ -9,7 +9,7 @@ const App: React.FC = () => {
   const [messages, setMessages] = useState<ChatMessage[]>([
     {
       role: 'model',
-      content: 'Halo! Saya MedicaBot, asisten virtual Rumah Sakit Sehat Sentosa. Ada yang bisa saya bantu?',
+      content: 'Halo! Saya MedicaBot, asisten virtual klinik MentaCare. Ada yang bisa saya bantu?',
     },
   ]);
   const [input, setInput] = useState('');
